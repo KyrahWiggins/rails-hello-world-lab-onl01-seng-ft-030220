@@ -1,5 +1,3 @@
-class StaticController < ApplicationController
-  def hello_world
-    render 'hello_world'
-  end
+class ApplicationController < ActionController::Base 
+  #protect_from_forgery with: :exception 
 end
